@@ -79,10 +79,16 @@
       "players": "96,113",
       "peakplayers": "124,893",
       "url": "https://store.steampowered.com/app/252490/Rust?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作", 
+        "冒險", 
+        "獨立製作", 
+        "大型多人連線", 
+        "角色扮演"
+      ],
+      "pubilsher": "Facepunch Studios",
+      "publishDate": "2018",
+      "deck": "不支援"
     },
     {
       "game": "NARAKA: BLADEPOINT",
@@ -182,10 +188,12 @@
       "players": "70,496",
       "peakplayers": "81,385",
       "url": "https://store.steampowered.com/app/1938090/_II_202220?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作"
+      ],
+      "pubilsher": "Activision",
+      "publishDate": "2022",
+      "deck": "不支援"
     },
     {
       "game": "Warframe",
@@ -318,10 +326,14 @@
       "players": "34,528",
       "peakplayers": "49,926",
       "url": "https://store.steampowered.com/app/221100/DayZ?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作",
+        "冒險",
+        "大型多人連線"
+            ],
+      "pubilsher": "Bohemia Interactive",
+      "publishDate": "2018",
+      "deck": "不支援"
     },
     {
       "game": "MONSTER HUNTER RISE",
@@ -1412,10 +1424,17 @@
       "players": "9,664",
       "peakplayers": "14,455",
       "url": "https://store.steampowered.com/app/440900/Conan_Exiles?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作",
+        "冒險",
+        "角色扮演",
+        "大型多人連線",
+        "模擬",
+        "策略"
+            ],
+      "pubilsher": "Funcom",
+      "publishDate": "2018",
+      "deck": "不支援"
     },
     {
       "game": "VTube Studio",
