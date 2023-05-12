@@ -725,8 +725,8 @@
         "角色扮演",
         "策略"
       ],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "pubilsher": "Red Hook Studios",
+      "publishDate": "2023",
       "deck": "None"
     },
     {
@@ -978,10 +978,12 @@
       "players": "14,492",
       "peakplayers": "17,428",
       "url": "https://store.steampowered.com/app/1091500/Cyberpunk_2077?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "角色扮演"
+      ],
+      "pubilsher": "CD PROJEKT RED",
+      "publishDate": "2020",
+      "deck": "已驗證"
     },
     {
       "game": "PAYDAY 2",
@@ -1050,8 +1052,8 @@
         "動作",
         "冒險"
       ],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "pubilsher": "Electronic Arts",
+      "publishDate": "2023",
       "deck": "None"
     },
     {
@@ -1333,10 +1335,13 @@
       "players": "10,592",
       "peakplayers": "25,021",
       "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "大型多人連線",
+        "角色扮演"
+      ],
+      "pubilsher": "Square Enix",
+      "publishDate": "2013",
+      "deck": "可遊玩"
     },
     {
       "game": "World of Warships",
@@ -1429,10 +1434,13 @@
       "players": "10,289",
       "peakplayers": "11,045",
       "url": "https://store.steampowered.com/app/1238840/Battlefield_1?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作",
+        "大型多人連線"
+      ],
+      "pubilsher": "Electronic Arts",
+      "publishDate": "2016",
+      "deck": "可遊玩"
     },
     {
       "game": "Counter-Strike",
