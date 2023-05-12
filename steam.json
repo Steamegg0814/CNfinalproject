@@ -178,8 +178,8 @@
       "peakplayers": "79,997",
       "url": "https://store.steampowered.com/app/1599340/Lost_Ark?snr=1_7001_7005__7003",
       "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "pubilsher": "Amazon Games",
+      "publishDate": "2022",
       "deck": "None"
     },
     {
@@ -201,9 +201,13 @@
       "players": "69,773",
       "peakplayers": "80,167",
       "url": "https://store.steampowered.com/app/230410/Warframe?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "動作",
+        "角色扮演",
+        "免費遊玩"
+      ],
+      "pubilsher": "Digital Extremes",
+      "publishDate": "2013",
       "deck": "None"
     },
     {
@@ -289,10 +293,16 @@
       "players": "45,289",
       "peakplayers": "63,725",
       "url": "https://store.steampowered.com/app/238960/Path_of_Exile?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
-      "deck": "None"
+      "genre": [
+        "動作",
+        "冒險",
+        "免費遊玩",
+        "獨立",
+        "大型多人在線",
+        "角色扮演" ],
+      "pubilsher": "Grinding Gear Games",
+      "publishDate": "2013",
+      "deck": "可遊玩"
     },
     {
       "game": "Tom Clancy's Rainbow Six® Siege",
@@ -487,9 +497,12 @@
       "players": "28,086",
       "peakplayers": "34,919",
       "url": "https://store.steampowered.com/app/1245620/?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+       "動作", 
+       "角色扮演"
+      ],
+      "pubilsher": "FromSoftware Inc.",
+      "publishDate": "2022",
       "deck": "None"
     },
     {
@@ -753,9 +766,15 @@
       "players": "18,682",
       "peakplayers": "21,632",
       "url": "https://store.steampowered.com/app/261550/Mount__Blade_II_Bannerlord?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "動作", 
+        "獨立製作", 
+        "角色扮演", 
+        "模擬", 
+        "策略"
+      ],
+      "pubilsher": "TaleWorlds Entertainment",
+      "publishDate": "2022",
       "deck": "None"
     },
     {
@@ -830,9 +849,11 @@
       "players": "17,384",
       "peakplayers": "24,259",
       "url": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "角色扮演"
+      ],
+      "pubilsher": "Bethesda Softworks",
+      "publishDate": "2016",
       "deck": "None"
     },
     {
@@ -968,9 +989,12 @@
       "players": "14,664",
       "peakplayers": "22,141",
       "url": "https://store.steampowered.com/app/218620/PAYDAY_2?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "動作",
+        "角色扮演"
+      ],
+      "pubilsher": "Starbreeze Publishing AB",
+      "publishDate": "2013",
       "deck": "None"
     },
     {
@@ -1138,9 +1162,11 @@
       "players": "12,170",
       "peakplayers": "16,067",
       "url": "https://store.steampowered.com/app/377160/Fallout_4?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "角色扮演"
+      ],
+      "pubilsher": "Bethesda Softworks",
+      "publishDate": "2015",
       "deck": "None"
     },
     {
@@ -1149,9 +1175,12 @@
       "players": "12,061",
       "peakplayers": "13,927",
       "url": "https://store.steampowered.com/app/2050650/Resident_Evil_4?snr=1_7001_7005__7003",
-      "genre": [],
-      "pubilsher": "None",
-      "publishDate": "None",
+      "genre": [
+        "動作",
+        "冒險"
+      ],
+      "pubilsher": "CAPCOM Co., Ltd.",
+      "publishDate": "2023",
       "deck": "None"
     },
     {
