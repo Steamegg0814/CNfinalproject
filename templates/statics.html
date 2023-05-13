@@ -4,32 +4,47 @@
     <meta charset="UTF-8" />
     <title>Steam Data Analysis</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
+    <link href="template.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="https://steamcommunity.com/favicon.ico" type="image/x-icon">
   </head>
-  <body>
-    
-    <canvas id="myChart"></canvas>
+
+  <body style="background-color: #171a21;position: relative">
+    <div class="container-fluid container-xxl .bg-black">
+    <canvas id="myChart"  style="margin: 6%;"></canvas>
     <script>
-      
     //長條圖分析開發商
       var labels = {{ labels|tojson }};
       var values = {{ values|tojson }};
-
-      
       var options = {
-        scales: {
-          xAxis: [{
-            ticks: {
-              beginAtZero: true
+        responsive: true,
+        plugins: {
+            title: {
+                display: true,
+                text: 'TOP Publisher',
+                color:'#fff',
+                font: { size: 30}
             }
-          }]
-        }
+        },
+        
+        scales: {
+          y: {
+            ticks: { color: '#fff' ,beginAtZero: true },
+            grid: {
+                drawTicks: false,
+                drawBorder: false,
+                color: 'rgba(255, 255, 255, 0.2)'
+            }
+          },
+          x: {
+            ticks: { color: '#fff', beginAtZero: true }
+          }
+        } 
       };
 
       // 繪製圖表
       var ctx = document.getElementById("myChart")
       var myChart = new Chart(ctx, {
-        type: "bar",
+        type: "bar",  
         data: {
           labels: labels,
           datasets: [
@@ -41,14 +56,10 @@
         },
         options: options
       });
-
-      // 長條圖分析遊戲日期
-      
     </script>
     
-    <div class="chart-container" style="position: relative; height:100vh; width:100vw; margin:auto;">
-        <canvas id="dateChart" ></canvas>
-      </div>
+    
+    <canvas id="dateChart" style="margin: 6%;" ></canvas>
         <script>
 
         //長條圖分析開發商
@@ -57,13 +68,28 @@
     
           
           var options = {
-            scales: {
-              xAxis: [{
-                ticks: {
-                  beginAtZero: true
-                }
-              }]
+            plugins: {
+            title: {
+                display: true,
+                text: 'TOP Publish Year',
+                color:'#fff',
+                font: { size: 30}
             }
+          },
+        
+            scales: {
+              y: {
+                ticks: { color: '#fff'},
+                grid: {
+                drawTicks: false,
+                drawBorder: false,
+                color: 'rgba(255, 255, 255, 0.2)'
+                }
+              },
+              x: {
+                ticks: { color: '#fff'}
+              }
+            } 
           };
 
 
@@ -83,10 +109,6 @@
             options: options
           });
         </script>
-
-
-
-
-
+  </div>
   </body>
 </html>
