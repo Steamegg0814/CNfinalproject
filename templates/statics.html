@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Steam Data Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+  </head>
+  <body>
+    
+    <canvas id="myChart"></canvas>
+    <script>
+      
+    //長條圖分析開發商
+      var labels = {{ labels|tojson }};
+      var values = {{ values|tojson }};
+
+      
+      var options = {
+        scales: {
+          xAxis: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      };
+
+      // 繪製圖表
+      var ctx = document.getElementById("myChart")
+      var myChart = new Chart(ctx, {
+        type: "bar",
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              label: "Publisber Counts",
+              data: values,
+            }
+          ]
+        },
+        options: options
+      });
+
+      // 長條圖分析遊戲日期
+      
+    </script>
+    
+    <div class="chart-container" style="position: relative; height:100vh; width:100vw; margin:auto;">
+        <canvas id="dateChart" ></canvas>
+      </div>
+        <script>
+
+        //長條圖分析開發商
+          var labels = {{ dateLabels|tojson }};
+          var values = {{ dateValues|tojson }};
+    
+          
+          var options = {
+            scales: {
+              xAxis: [{
+                ticks: {
+                  beginAtZero: true
+                }
+              }]
+            }
+          };
+
+
+          // 繪製圖表
+          var ctx = document.getElementById("dateChart")
+          var myChart = new Chart(ctx, {
+            type: "line",
+            data: {
+              labels: labels,
+              datasets: [
+                {
+                  label: "Publisber date Counts",
+                  data: values
+                }
+              ]
+            },
+            options: options
+          });
+        </script>
+
+
+
+
+
+  </body>
+</html>
