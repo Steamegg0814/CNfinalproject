@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import json
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', template_folder='templates')
 @app.route('/')
 def index():
     with open('steam.json', newline='',encoding="utf-8") as f:
